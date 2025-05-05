@@ -47,7 +47,7 @@ int knapsack(int W, int wt[], int val[], int n) {
 }
 
 int main() {
-    int val[] = {60, 100, 120};   // values
+    int val[] = {50, 90, 100};   // values
     int wt[] = {10, 20, 30};      // weights
     int W = 50;
     int n = sizeof(val) / sizeof(val[0]);
